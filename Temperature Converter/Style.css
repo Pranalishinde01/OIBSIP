@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  padding-top: 100px;
+  background: linear-gradient(to bottom right, #ff66ff 0%, #ffcc66 68%);
+  height: 200px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.card {
+  width: 500px;
+ 
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 3px 9px 4px rgba(176, 100, 255, 0.48);
+  box-shadow: 2px 3px 9px 4px rgba(176, 100, 255, 0.48);
+}
+
+.top {
+  background-image: linear-gradient(to top, #0099ff 0%, #ffffff 100%);
+  padding-bottom: 100px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+#temp{
+  background: white;
+  width: 25%;
+  height: 37px;
+  border: 1px solid black;
+}
+
+#unit{
+  margin-top:  5%; 
+  background: white;
+  width: 25%;
+  height: 40px;
+  border: 1px solid black;
+}
+button{
+  background:grey;
+  margin-top: 8%;
+  width: 20%;
+  height: 40px;
+  border: 2px solid black;
+  font-family: 'Questrial';
+  font-size:large ;
+}
+
+
+.bottom {
+  background-color: #fff;
+  padding: 80px 15px;
+}
+
+#message{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
